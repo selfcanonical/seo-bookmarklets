@@ -1,6 +1,6 @@
 # SEO Bookmarklets by SelfCanonical.com
 
-You can use these browser bookmarklets to boost SEO activities. Brought to you by https://selfcanonical.com - Enjoy!
+You can use these browser bookmarklets to boost SEO activities. Enjoy!
 
 #### 1. [Check Google Cache](https://github.com/selfcanonical/seo-bookmarklets/blob/main/google-cache.js)
 You can check the current cached version of the page.
