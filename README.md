@@ -1,4 +1,4 @@
-# SEO Bookmarklets by SelfCanonical.com
+# SEO Bookmarklets by Shaikat Ray
 
 You can use these browser bookmarklets to boost SEO activities. Enjoy!
 
