@@ -1,4 +1,4 @@
-# SEO Bookmarklets by Shaikat Ray
+# SEO Bookmarklets
 
 You can use these browser bookmarklets to boost SEO activities. Enjoy!
 
