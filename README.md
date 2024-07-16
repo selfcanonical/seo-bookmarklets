@@ -1,4 +1,4 @@
-# SEO Bookmarklets
+# SEO Bookmarklets x SelfCanonical
 
 You can use these browser bookmarklets to boost SEO activities. Enjoy!
 
