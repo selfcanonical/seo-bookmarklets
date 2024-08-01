@@ -1,6 +1,6 @@
 # SEO Bookmarklets x SelfCanonical
 
-You can use these SEO bookmarklets to perform quick checks and SEO activities. Enjoy!
+You can use these SEO bookmarklets to perform quick checks and SEO actions. Enjoy!
 
 #### [Check Google Cache](https://github.com/selfcanonical/seo-bookmarklets/blob/main/google-cache.js)
 You can check the current cached version of the page.
