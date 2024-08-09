@@ -1,4 +1,4 @@
-# SEO Bookmarklets x SelfCanonical
+# SEO Bookmarklets x Self Canonical
 
 You can use these SEO bookmarklets to perform quick checks and SEO actions. Enjoy!
 
