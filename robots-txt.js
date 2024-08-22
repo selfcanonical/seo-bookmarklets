@@ -1,1 +1,1 @@
-javascript:(function(){window.location.href='https://webcache.googleusercontent.com/search?q=cache:'+encodeURIComponent(window.location.href);})();
+javascript:(function(){window.location.href=window.location.protocol+'//'+window.location.host+'/robots.txt';})();
