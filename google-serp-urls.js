@@ -1,16 +1,1 @@
-javascript:(function() {
-    var results = document.querySelectorAll('.g');
-    var output = '<html><head><title>Extracted URLs</title></head><body>';
-    output += '<h1>SERP Titles and URLs</h1><h2>Total results: ' + results.length + '</h2><ul>';
-    results.forEach(function(result) {
-        var title = result.querySelector('h3') ? result.querySelector('h3').innerText : '';
-        var url = result.querySelector('a') ? result.querySelector('a').href : '';
-        if (title && url) {
-            output += '<li>' + title + '<br><a href="' + url + '" target="_blank">' + url + '</a></li>';
-        }
-    });
-    output += '</ul></body></html>';
-    var newWindow = window.open();
-    newWindow.document.write(output);
-    newWindow.document.close();
-})();
+javascript:(function(){const links=Array.from(document.querySelectorAll('a[jsname="UWckNb"]'));if(links.length===0){alert('No search results found.');return;}const urls=links.map(link=>{let url=link.href;if(url.startsWith('https://www.google.com/url?')){const urlParams=new URLSearchParams(url.split('?')[1]);if(urlParams.has('q')){url=urlParams.get('q');}}return url;});const newTab=window.open('about:blank','_blank');if(newTab){let content='<!DOCTYPE html><html><head><title>Google Search URLs</title><style>body{font-family:monospace;margin:20px;line-height:1.5;}h1{color:#1a73e8;}ul{list-style-type:none;padding:0;}li{margin:5px 0;padding:5px;border-bottom:1px solid #eee;}a{word-break:break-all;}</style></head><body><h1>Google Search URLs ('+urls.length+')</h1><ul>';urls.forEach(url=>{content+=`<li><a href="${url}" target="_blank">${url}</a></li>`;});content+='</ul></body></html>';newTab.document.write(content);newTab.document.close();}else{alert('Pop-up blocker prevented opening a new tab.');}})();
